@@ -166,6 +166,7 @@ struct mtcp_config
 	int num_cores;
 	int num_mem_ch;
 	int max_concurrency;
+	int num_ips;
 #ifndef DISABLE_DPDK
 	mpz_t _cpumask;
 #endif
